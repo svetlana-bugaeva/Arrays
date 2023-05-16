@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 using std::cin;
 using std::cout;
@@ -15,16 +15,16 @@ void main()
 	const int n = 10;
 	int arr[n] = { 0,1,2,3,4,5,6,7,8,9 };
 
-	//Вывод исходного массива
+	//Р’С‹РІРѕРґ РёСЃС…РѕРґРЅРѕРіРѕ РјР°СЃСЃРёРІР°
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << tab;
 	}
 	cout << endl;
 
-	//циклический сдвиг массива
+	//С†РёРєР»РёС‡РµСЃРєРёР№ СЃРґРІРёРі РјР°СЃСЃРёРІР°
 	int number_of_shifts;
-	cout << "Введите количество сдвигов: "; cin >> number_of_shifts;
+	cout << "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРґРІРёРіРѕРІ: "; cin >> number_of_shifts;
 	for (int i = 0; i < number_of_shifts; i++)
 	{
 		int buffer = arr[0];
@@ -36,7 +36,7 @@ void main()
 	}
 	cout << endl;
 
-     //вывод сдвинутого массива на экран
+     //РІС‹РІРѕРґ СЃРґРІРёРЅСѓС‚РѕРіРѕ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << tab;
@@ -48,16 +48,16 @@ void main()
 		const int n = 10;
 		int arr[n] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
-        //Вывод исходного массива на экран
+        //Р’С‹РІРѕРґ РёСЃС…РѕРґРЅРѕРіРѕ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ
 		for (int i = 0; i < n; i++)
 		{
 			cout << arr[i] << tab;
 		}
 		cout << endl;
 
-		//Циклический сдвиг массива
+		//Р¦РёРєР»РёС‡РµСЃРєРёР№ СЃРґРІРёРі РјР°СЃСЃРёРІР°
 		int namber_of_shifts;
-		cout << "Введите количество сдвигов: "; cin >> namber_of_shifts;
+		cout << "Р’РІРµРґРёС‚Рµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃРґРІРёРіРѕРІ: "; cin >> namber_of_shifts;
 		for (int i = 0; i < namber_of_shifts; i++)
 		{
 			int buffer = arr[n - 1];
@@ -69,7 +69,7 @@ void main()
 		}
 		cout << endl;
 
-		//Вывод сдвинутого массива на экран
+		//Р’С‹РІРѕРґ СЃРґРІРёРЅСѓС‚РѕРіРѕ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ
 		for (int i = 0; i < n; i++)
 		{
 			cout << arr[i] << tab;
