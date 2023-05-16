@@ -6,6 +6,7 @@ using std::endl;;
 
 #define tab "\t"
 //#define LEFT
+#define RIGHT
 
 void main()
 {
@@ -43,6 +44,7 @@ void main()
 	cout << endl;
 #endif LEFT
 
+#ifdef RIGHT
 		const int n = 10;
 		int arr[n] = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
@@ -73,5 +75,5 @@ void main()
 			cout << arr[i] << tab;
 		}
 		cout << endl;
-
+#endif RIGHT
 }
